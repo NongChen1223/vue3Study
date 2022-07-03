@@ -1,6 +1,6 @@
 <template>
   <div>
-    5454
+    11
     <router-view></router-view>
   </div>
 </template>
@@ -8,5 +8,4 @@
 
 </script>
 <style>
-
 </style>
