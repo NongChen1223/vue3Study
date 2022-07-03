@@ -5,7 +5,7 @@
 </template>
 
 <script lang='ts'>
-import { reactive, toRefs,onBeforeMount, onMounted } from 'vue'
+import { reactive, toRefs, onBeforeMount, onMounted } from 'vue'
 export default {
   name: '',
   props: [],
@@ -24,4 +24,5 @@ export default {
   }
 }
 </script>
-<style lang='scss' scoped></style>
+<style lang='scss' scoped>
+</style>
