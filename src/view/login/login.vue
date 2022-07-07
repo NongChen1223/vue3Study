@@ -4,25 +4,25 @@
   </div>
 </template>
 
-<script lang='ts'>
-import { reactive, toRefs, onBeforeMount, onMounted } from 'vue'
+<script lang="ts">
+import { reactive, toRefs, onBeforeMount, onMounted } from "vue";
 export default {
-  name: '',
+  name: "",
   props: [],
   setup() {
-    const state = reactive({})
+    const state = reactive({});
     onBeforeMount(() => {
-      console.log('2.组件挂载页面之前执行----onBeforeMount')
-    })
+      console.log("2.组件挂载页面之前执行----onBeforeMount");
+    });
     onMounted(() => {
-      console.log('3.-组件挂载到页面之后执行-------onMounted')
-    })
-    const refState = toRefs(state)
+      console.log("3.-组件挂载到页面之后执行-------onMounted");
+    });
+    const refState = toRefs(state);
     return {
-      ...refState
-    }
-  }
-}
+      ...refState,
+    };
+  },
+};
 </script>
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 </style>
